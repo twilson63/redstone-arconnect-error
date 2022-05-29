@@ -1,6 +1,6 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: cd app && yarn
+  - init: yarn
     command: export HMR_HOST=`gp url 3000`
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
